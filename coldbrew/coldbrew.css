@@ -1,0 +1,56 @@
+        div.box {
+            border: 2px solid red;
+            padding: 10px;
+            position: static;
+            margin-left: 20px;
+            width: 450px;
+            display: inline-block;
+            height: 800px;
+            color: rgb(5, 11, 104);
+        }
+        
+        div.car {
+            position: relative;
+            margin: 0px;
+            width: 300px;
+            height: 150px;
+            border: 3px solid #73AD21;
+        }
+        
+        div.car1 {
+            position: relative;
+            margin-top: 0px;
+            width: 300px;
+            height: 150px;
+            background-color: darkblue;
+            transition: transform 2s ease-in-out .5s;
+        }
+        
+        div.car1:hover {
+            transform: translateY(150px);
+        }
+        
+        div.button {
+            position: -webkit-sticky;
+            margin-left: 400px;
+        }
+        
+        div.space {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        
+        div.button {
+            position: -webkit-sticky;
+            margin-left: 400px;
+        }
+        
+        p {
+            font-size: larger;
+        }
+        
+        div.p {
+            color: darkred;
+            position: static;
+            padding: 0px;
+        }
